@@ -10,7 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Achievement">
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.personWord.PersonWordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".ui.setting.SettingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.achievement.AchievementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

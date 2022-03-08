@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProBarView">
+<!--        进度条颜色-->
+        <attr name="ProBarColor" format="color"/>
+<!--        填充颜色-->
+        <attr name="FillBarColor" format="color"/>
+<!--        边框颜色-->
+        <attr name="StrokeColor" format="color"/>
+<!--        边框宽度-->
+        <attr name="StrokeWidth" format="dimension"/>
+<!--        最大进度-->
+        <attr name="MaxProgress" format="float"/>
+<!--        默认进度-->
+        <attr name="DefaultProgress" format="float"/>
+<!--        反方向-->
+        <attr name="Reverse" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="RectProBarView">
+<!--        进度条边缘角度-->
+         <attr name="Radius" format="dimension"/>
+<!--        是否垂直-->
+         <attr name="IsHorizontal" format="boolean"/>
+    </declare-styleable>
+</resources>

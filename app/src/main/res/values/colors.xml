@@ -7,4 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    
+    <color name="select_color_tx">#242424</color>
+    <color name="not_select_color_tx">#BABABA</color>
+    <color name="title_color">#BABABA</color>
+    <color name="tiem_achievement_tx_color">#0294C4</color>
+    <color name="finish_achievement">#BAE8F5</color>
+    <color name="not_finish_achievement">#E3E3E3</color>
 </resources>
